@@ -41,6 +41,7 @@ public class Config {
         executor.setMaxPoolSize(5);
         executor.setKeepAliveSeconds(200);
         executor.setQueueCapacity(10);
+        executor.setThreadNamePrefix("chang-");
         return executor;
     }
 
@@ -51,6 +52,7 @@ public class Config {
         executor.setMaxPoolSize(5);
         executor.setKeepAliveSeconds(100);
         executor.setQueueCapacity(10);
+        executor.setThreadNamePrefix("liang-");
         return executor;
     }
 }
